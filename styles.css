@@ -88,3 +88,26 @@ header h2 {
 .container img {
 	width: 50vw;
 }
+
+button {
+	background-color: #3D3D3D;
+	color: white;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border: 2px solid #3D3D3D;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.odd-button:hover {
+	background-color: #919191;
+	color: #DDD;
+}
+
+.even-button:hover {
+	background-color: #E2E2E2;
+	color: #333;
+}
