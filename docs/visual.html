@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'/>
+	    <title>Visual Arguement</title>
+	    <link rel='stylesheet' href='styles.css'/>
+	    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+	</head>
+	<body>
+		<div class="navbar-div">
+			<ul class="navbar-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="soundscape.html">Soundscape</a></li>
+				<li class="active"><a class="active-text" href="visual.html">Visual Arguement</a></li>
+				<li><a href="website.html">Website</a></li>
+			</ul>
+		</div>
+		<header>
+			<div class="slideshow-container">
+			  <div class="mySlides fade">
+			    <div class="numbertext">1 / 4</div>
+			    <img src="visual/1.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">2 / 4</div>
+			    <img src="visual/2.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">3 / 4</div>
+			    <img src="visual/3.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">4 / 4</div>
+			    <img src="visual/4.png" style="width:100%">
+			  </div>
+
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+		</header>
+		<div class="projects odd">
+			<h3>My project is aimed to show people that Philadelphia is the future sports hub of the world. Boston has ruled for too long, it's Philly's time to shine. All the signs point to a Philadelphia run over the next decade.</h3>	
+			<br>
+			<h3>Check out the GitHub repository <a class="link" href="https://github.com/ktdemay/visual-argument-2020spring">here</a>.</h3>
+		</div>
+		<div class="projects even">
+			<h3>This project was made in GIMP and taught me the basics, and some advanced aspects, of using software to edit photos. In the slideshow above you can see my progress as I worked through this project.</h3>
+		</div>
+		<script src="slideshow.js"></script>
+	</body>
+</html>
