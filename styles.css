@@ -218,6 +218,15 @@ audio {
     padding-top: 20px;
 }
 
+.link {
+	color: #66FCF1;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #45A29E;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
