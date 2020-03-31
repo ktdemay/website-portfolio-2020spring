@@ -44,15 +44,18 @@ li a:hover {
 
 header {
 	background-color: #1F2833;	
+	padding: 2vw 2em;
+}
+
+.header-no-ss {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	line-height: 1.2;
-	padding: 2vw 2em;
 	text-align: center;
 }
 
-header img {
+.header-img {
   display: inline-block;
   vertical-align: top;
   height: 240px;
@@ -206,6 +209,13 @@ button {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+audio {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 
 @-webkit-keyframes fade {
